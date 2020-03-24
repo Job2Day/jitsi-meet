@@ -238,7 +238,7 @@ class WelcomePage extends AbstractWelcomePage {
      */
     _onFormSubmit(event) {
         event.preventDefault();
-
+        console.log('TEST');
         if (!this._roomInputRef || this._roomInputRef.reportValidity()) {
             this._onJoin();
         }
