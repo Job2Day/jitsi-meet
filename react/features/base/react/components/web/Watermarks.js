@@ -5,6 +5,8 @@ import React, { Component } from 'react';
 import { translate } from '../../../i18n';
 import { connect } from '../../../redux';
 
+const logger = require('jitsi-meet-logger').getLogger(__filename);
+
 declare var interfaceConfig: Object;
 
 /**
@@ -173,14 +175,13 @@ class Watermarks extends Component<Props, State> {
      */
     _renderJitsiWatermark() {
         let reactElement = null;
-
+        logger.debug('Rendering watermark');
         if (this.state.showJitsiWatermark
                 || (this.props._isGuest
                     && this.state.showJitsiWatermarkForGuests)) {
             reactElement = <div className = 'watermark leftwatermark' />;
 
             const { jitsiWatermarkLink } = this.state;
-            console.log(jitsiWatermarkLink);
             if (jitsiWatermarkLink) {
                 reactElement = (
                     <a
