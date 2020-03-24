@@ -180,7 +180,7 @@ class Watermarks extends Component<Props, State> {
             reactElement = <div className = 'watermark leftwatermark' />;
 
             const { jitsiWatermarkLink } = this.state;
-
+            console.log(jitsiWatermarkLink);
             if (jitsiWatermarkLink) {
                 reactElement = (
                     <a
