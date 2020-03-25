@@ -1,10 +1,10 @@
 {
-  "name": "jitsi-meet",
+  "name": "inmind-meet",
   "version": "0.0.0",
-  "description": "A sample app for the Jitsi Videobridge",
+  "description": "InMind Meet web app (forked from Jitsi Meet)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jitsi/jitsi-meet"
+    "url": "git://github.com/job2day/inmind-meet"
   },
   "keywords": [
     "jingle",
@@ -142,9 +142,6 @@
     "postinstall": "jetify",
     "validate": "npm ls"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "browser": {
     "jQuery-Impromptu": "jQuery-Impromptu/src/jquery-impromptu.js"
   }

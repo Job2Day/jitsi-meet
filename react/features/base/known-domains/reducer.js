@@ -19,7 +19,7 @@ import { ADD_KNOWN_DOMAINS } from './actionTypes';
 export const DEFAULT_STATE = [
     'alpha.jitsi.net',
     'beta.meet.jit.si',
-    'meet.jit.si',
+    'ns323077.ip-94-23-6.eu',
     '8x8.vc'
 ];
 

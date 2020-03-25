@@ -6,7 +6,7 @@
 	<array>
 		<string>applinks:alpha.jitsi.net</string>
 		<string>applinks:beta.meet.jit.si</string>
-		<string>applinks:meet.jit.si</string>
+		<string>applinks:ns323077.ip-94-23-6.eu</string>
 	</array>
 	<key>com.apple.developer.siri</key>
 	<true/>
